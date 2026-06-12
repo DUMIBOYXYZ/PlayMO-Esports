@@ -6,7 +6,7 @@ export default function Home() {
       <iframe
         width="100%"
         height="500"
-        src="https://www.youtube.com/embed/c3E35s_ivA8"
+        src="https://fan24.pk/watch/canada-vs-bosnia-herzegovina-2461104"
         allow="autoplay; encrypted-media"
         allowFullScreen
       />
