@@ -1,7 +1,9 @@
+import LiveChat from "@/components/LiveChat";
+
 export default function Home() {
   return (
     <main style={{ padding: 20, textAlign: "center" }}>
-      <h1>🏆 PLAYMO ESPORTS LIVE</h1>
+      <h1>🏆 FIFA 26 LIVE @dumiboy.xyz</h1>
 
       <iframe
         width="100%"
@@ -10,6 +12,10 @@ export default function Home() {
         allow="autoplay; encrypted-media"
         allowFullScreen
       />
+
+      <div style={{ marginTop: 20 }}>
+        <LiveChat />
+      </div>
     </main>
   );
 }

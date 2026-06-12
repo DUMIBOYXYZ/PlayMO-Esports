@@ -1,0 +1,48 @@
+PLAYMO ESPORTS - LIVE STREAMING GUIDE (NOTES)
+
+OVERVIEW
+OBS -> YouTube Live -> Next.js Website -> Vercel
+
+START STREAM
+
+1. Open YouTube Studio
+https://studio.youtube.com
+Click Create -> Go Live
+
+2. Copy Stream Key
+
+3. Open OBS
+Settings -> Stream
+Service: YouTube RTMPS
+Server: Auto
+Paste Stream Key
+
+4. Click Start Streaming in OBS
+
+5. Get YouTube Video ID
+Example:
+https://www.youtube.com/watch?v=c3E35s_ivA8
+Video ID: c3E35s_ivA8
+
+6. Website Embed (Next.js)
+
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  allow="autoplay; encrypted-media"
+  allowFullScreen
+/>
+
+RULES
+- Use UNLISTED (recommended)
+- Do NOT set PRIVATE (breaks embed)
+- Keep OBS running during stream
+
+TROUBLESHOOTING
+- Not showing: check LIVE status
+- OBS not live: check stream key
+- Buffering: reduce bitrate
+
+FLOW
+OBS -> YouTube -> Website -> Viewers
