@@ -1,17 +1,15 @@
-import VideoPlayer from "@/components/VideoPlayer";
-
 export default function Home() {
   return (
-    <main style={{ padding: "20px", textAlign: "center" }}>
-      <h1>🏆 FIFA LIVE STREAM</h1><span style={{
-  color: "red",
-  fontWeight: "bold",
-  marginLeft: "10px"
-}}>
-🔴 LIVE
-</span>
+    <main style={{ padding: 20, textAlign: "center" }}>
+      <h1>🏆 PLAYMO ESPORTS LIVE</h1>
 
-      <VideoPlayer src="http://localhost:8080/hls/stream.m3u8" />
+      <iframe
+        width="100%"
+        height="500"
+        src="https://www.youtube.com/embed/c3E35s_ivA8"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+      />
     </main>
   );
 }
