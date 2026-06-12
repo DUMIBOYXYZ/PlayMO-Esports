@@ -13,9 +13,7 @@ export default function Home() {
         allowFullScreen
       />
 
-      <div style={{ marginTop: 20 }}>
-        <LiveChat />
-      </div>
+      
     </main>
   );
 }
