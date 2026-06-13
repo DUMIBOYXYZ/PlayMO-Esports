@@ -6,7 +6,7 @@ export default function Home() {
       <iframe
         width="100%"
         height="500"
-        src="https://fan24.pk/watch/canada-vs-bosnia-herzegovina-2461104"
+        src="https://fan24.pk/watch/usa-vs-paraguay-2391729"
         allow="autoplay; encrypted-media"
         allowFullScreen
       />
