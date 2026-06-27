@@ -5,7 +5,7 @@ export default function Home() {
 
       <iframe
         width="100%"
-        height="100%"
+        height="2000"
         src="https://movies2watch.biz/"
         allow="autoplay; encrypted-media"
         allowFullScreen
