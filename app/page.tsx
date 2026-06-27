@@ -6,7 +6,7 @@ export default function Home() {
       <iframe
         width="100%"
         height="500"
-        src="https://fan24.pk/watch/usa-vs-paraguay-2391729"
+        src="https://movies2watch.biz/"
         allow="autoplay; encrypted-media"
         allowFullScreen
       />
